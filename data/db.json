@@ -1,0 +1,22 @@
+{
+    "blogs":[
+        {
+            "title":"Code meme",
+            "body": "Lorem Ipsum...",
+            "author": "sol",
+            "id": 1
+        },
+        {
+            "title":"Code dev",
+            "body": "Lorem Ipsum...",
+            "author": "alfred",
+            "id": 2
+        },
+        {
+            "title":"Code tip",
+            "body": "Lorem Ipsum...",
+            "author": "sol",
+            "id": 3
+        }
+    ]
+}
