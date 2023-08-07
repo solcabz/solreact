@@ -53,11 +53,12 @@
 input:checked + .slider:before{
     background-image: url("../../../assets/moon.svg");
     fill: var(--title-color); 
-    transform: translateX(25px);
+    transform: translateX(100%);
 }
 
 input:not(:checked) + .slider:before {
     background-image:  url("../../../assets/sun.svg");
+  
     fill: var(--title-color); /* Change to the desired color */
     transform: translateX(0);
 }
