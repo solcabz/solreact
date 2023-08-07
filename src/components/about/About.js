@@ -1,7 +1,7 @@
 import React from 'react'
 import './about.css'
 import aboutImg from '../../assets/imgAbout.png'
-import CV from '../../assets/Sol-cv.pdf'
+import CV from '../../assets/SolCabreza-cv.pdf'
 import SelfInfo from './SelfInfo.js'
 
 export default function About() {
@@ -18,12 +18,12 @@ export default function About() {
 
                 <p className="about_description">
                     Software Engineer
-				    Graduated at STI College Munoz EDSA SY 2015-2019
-					Worked at Glotech PVT. Inc. since 2020 - 2022
-					as a Radio Frequency/ Drive Test Engineer
-					Currently Working at Iconiqlast
-					as a Web Developer.
-                </p>
+                    Graduated at STI College Munoz EDSA SY 2015-2019
+                    Worked at Glotech PVT. Inc. since 2020 - 2022
+                    as a Radio Frequency/ Drive Test Engineer
+                    Currently Working at Iconiqlast
+                    as a Web Developer.
+                          </p>
 
                 <a download="" href={ CV } className="button button--flex">Download CV<i className="uil uil-files-landscapes-alt button_icon"></i></a>
             </div>
