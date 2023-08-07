@@ -1,7 +1,5 @@
 import React from "react";
 import "./darkmode.css";
-// import { ReactComponent as sun } from "../../assets/sun.svg";
-// import { ReactComponent as moon } from "../../assets/moon.svg";
 
 const Darkmode = () => {
   const setLightMode = () => {

@@ -52,13 +52,12 @@
 
 input:checked + .slider:before{
     background-image: url("../../../assets/moon.svg");
-    fill: var(--title-color); 
+    fill: var(--text-color); 
     transform: translateX(100%);
 }
 
 input:not(:checked) + .slider:before {
     background-image:  url("../../../assets/sun.svg");
-  
-    fill: var(--title-color); /* Change to the desired color */
+    fill: var(--text-color); /* Change to the desired color */
     transform: translateX(0);
 }
