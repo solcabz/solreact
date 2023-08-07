@@ -47,6 +47,16 @@
 
 }
 
+[data-theme="dark"]{  
+    /* color */
+    --title-color:  #ffffff;
+    --title-color-dark:  #ffffff;
+    --text-color: #ffffff;
+    --body-color: #1a1c22;
+    --container-color: #2e3239;
+}
+
+
 @media screen and (max-width: 992px) {
   :root{
     --big-font-size: 2.75rem;
