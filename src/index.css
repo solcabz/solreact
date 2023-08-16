@@ -6,6 +6,7 @@
   /* color */
   --hue: 0;
   --sat: 0%;
+  --btn-bg: hsl(var(--hue), var(--sat), 20% );
   --title-color: hsl(var(--hue), var(--sat), 20% );
   --title-color-dark: hsl(var(--hue), var(--sat), 0% );
   --text-color: hsl(var(--hue), var(--sat), 46% );
@@ -49,9 +50,10 @@
 
 [data-theme="dark"]{  
     /* color */
-    --title-color:  #EAD9BD;
-    --title-color-dark:  #B39B84;
-    --text-color: #d3d0cb;
+    --btn-bg: #dddbcb;
+    --title-color:  #ffffff;
+    --title-color-dark: #bbb8b8;
+    --text-color: #ffffff;
     --body-color: #1a1c22;
     --container-color: #2e3239;
 }
@@ -157,7 +159,7 @@ img{
 
 .button{
   display: inline-block;
-  background-color: var(--title-color);
+  background-color: var(--btn-bg);
   color: var(--container-color);
   padding: 1.25rem 2rem;
   border: 1rem;
