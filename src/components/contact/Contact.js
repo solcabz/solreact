@@ -33,9 +33,9 @@ const Contact = () => {
 
               <h3 className="contact_card-title">Email</h3>
 
-              <span className="contact_card-data">user@gmail.com</span>
+              <span className="contact_card-data">solcabreza@gmail.com</span>
 
-              <a href="mailt0:cabreza@gmail.com" className="contact_button">
+              <a href="mailto:solcabreza@gmail.com" className="contact_button">
                 Write me
                 <i className="bx bx-right-arrow-alt contact_button-icon"></i>
               </a>
@@ -46,9 +46,9 @@ const Contact = () => {
 
               <h3 className="contact_card-title">Viber</h3>
 
-              <span className="contact_card-data">09*********</span>
+              <span className="contact_card-data">09476273795</span>
 
-              <a href="/" className="contact_button">
+              <a href="viber://chat?number=+639476273795" className="contact_button">
                 Write me
                 <i className="bx bx-right-arrow-alt contact_button-icon"></i>
               </a>
@@ -59,7 +59,7 @@ const Contact = () => {
 
               <h3 className="contact_card-title">Messenger</h3>
 
-              <span className="contact_card-data">User.fb</span>
+              <span className="contact_card-data">solcabz</span>
 
               <a href="https://m.me/sol.cabz.33" className="contact_button">
                 Write me

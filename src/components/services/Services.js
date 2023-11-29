@@ -103,7 +103,7 @@ function Services() {
         <div className="services_content">
           <div>
             <i className="uil uil-edit services_icon"></i>
-            <h3 className="services_title">Web <br /> Developer</h3>
+            <h3 className="services_title">Frontend <br /> Design</h3>
           </div>
 
           <span className="services_button" onClick={ () => toggleTab(3) }>
