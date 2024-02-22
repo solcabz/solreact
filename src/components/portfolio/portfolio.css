@@ -1,11 +1,32 @@
 .card-wrapper {
   display: flex;
   justify-content: center;
+  gap: 25px;
   align-items: center;
 }
+
 .image-box {
+  height: 250px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.image-box img{
+  height: 156px;
+  box-shadow: 0 0 15px 0 var(--container-color);
+}
+
+
+@media screen and (max-width: 768px) {
+  .image-box {
+    height: auto;
+    padding: 0;
+    margin: 0;
+  }
+  .card-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
 }
