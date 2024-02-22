@@ -5,7 +5,7 @@ const Portfolio = () => {
   return (
     <section className="section portfolio" id="portfolio">
       <div className="card-wrapper">
-        <div>
+        <div className="image-box">
           <a href="https://tic-tac-toe-sol.netlify.app/">
             <img
               src={projImage}
