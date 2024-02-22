@@ -15,6 +15,7 @@ const Portfolio = () => {
             }}
           ></img>
         </a>
+        <span>Tic-Tac-Toe</span>
       </div>
     </section>
   );
