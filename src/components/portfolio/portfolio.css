@@ -1,8 +1,7 @@
 .card-wrapper {
-  display: flex;
+  grid-template-columns: repeat(3, 270px);
   justify-content: center;
-  gap: 25px;
-  align-items: center;
+  column-gap: 1.8rem;
 }
 
 .image-box {
@@ -13,11 +12,10 @@
   justify-content: center;
 }
 
-.image-box img{
+.image-box img {
   height: 156px;
   box-shadow: 0 0 15px 0 var(--container-color);
 }
-
 
 @media screen and (max-width: 768px) {
   .image-box {

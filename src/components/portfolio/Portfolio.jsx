@@ -1,5 +1,6 @@
 import projImage from "../../assets/tictac.png";
 import projLeo from "../../assets/leo.png";
+import projHris from "../../assets/projHris.png";
 import "./portfolio.css";
 
 const Portfolio = () => {
@@ -10,19 +11,28 @@ const Portfolio = () => {
           image={projImage}
           link="https://tic-tac-toe-sol.netlify.app/"
           title="Tic-Tac-Toe"
+          subTitle="React"
         />
 
         <ProjectCard
           image={projLeo}
           link="https://www.leocasts.ph/"
           title="LeocastPH Portfolio"
+          subTitle="Webflow"
+        />
+
+        <ProjectCard
+          image={projHris}
+          link="https://teamtngc.netlify.app/admin"
+          title="HRIS"
+          subTitle="React (Ongoing Proj)"
         />
       </div>
     </section>
   );
 };
 
-const ProjectCard = ({ image, link, title }) => {
+const ProjectCard = ({ image, link, title, subTitle }) => {
   return (
     <div className="image-box">
       <a href={link} target="_blank" rel="noopener noreferrer">
@@ -36,6 +46,7 @@ const ProjectCard = ({ image, link, title }) => {
         />
       </a>
       <span>{title}</span>
+      <span>{subTitle}</span>
     </div>
   );
 };
