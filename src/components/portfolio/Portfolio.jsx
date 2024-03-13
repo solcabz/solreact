@@ -23,7 +23,7 @@ const Portfolio = () => {
 
         <ProjectCard
           image={projHris}
-          link="https://teamtngc.netlify.app/admin"
+          link="https://teamtngc.netlify.app/"
           title="HRIS"
           subTitle="React (Ongoing Proj)"
         />
