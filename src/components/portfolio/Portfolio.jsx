@@ -1,6 +1,7 @@
 import projImage from "../../assets/tictac.png";
 import projLeo from "../../assets/leo.png";
 import projHris from "../../assets/projHris.png";
+import projTodo from "../../assets/todo.png";
 import "./portfolio.css";
 
 const Portfolio = () => {
@@ -25,6 +26,13 @@ const Portfolio = () => {
           image={projHris}
           link="https://teamtngc.netlify.app/"
           title="HRIS"
+          subTitle="React (Ongoing Proj)"
+        />
+
+        <ProjectCard
+          image={projTodo}
+          link="https://solreact-todolist.netlify.app/"
+          title="Todo-list"
           subTitle="React (Ongoing Proj)"
         />
       </div>
