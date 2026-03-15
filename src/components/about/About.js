@@ -23,8 +23,8 @@ export default function About() {
                     </p>
 
                     <a
-                        href={`${process.env.PUBLIC_URL}/SolomonCabrezaCV.pdf`}
-                        download="SolomonCabrezaCV.pdf"
+                        href="/SolomonCabrezaCV.pdf"
+                        download
                         className="button button--flex"
                     >
                         Download CV
