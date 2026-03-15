@@ -1,10 +1,13 @@
-import React from 'react'
 import './footer.css'
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear(); // dynamically get current year
+
   return (
     <footer>
-        <span>Created By <a href="https://github.com/solcabz" target='_blank' rel="noreferrer">Solcabz</a> | <span >@</span> 2023 All rights reserved.</span>
+      <span>
+        Created By <a href="https://github.com/solcabz" target="_blank" rel="noreferrer">Solcabz</a> | &copy; {currentYear} All rights reserved.
+      </span>
     </footer>
   )
 }
