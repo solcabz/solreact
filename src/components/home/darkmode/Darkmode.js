@@ -33,7 +33,6 @@ const Darkmode = () => {
           defaultChecked={selectedTheme === "dark"}
         />
         <span className="slider"></span>
-        <span className="sr-only">Toggle dark mode</span>
       </label>
     </div>
   );
