@@ -15,7 +15,7 @@ const ScrollUp = () => {
     });
 
   return (
-    <button className="scrollup" onClick={() => window.scrollTo(0, 0)}>
+    <button className="scrollup" aria-label="Scroll to top" onClick={() => window.scrollTo(0, 0)}>
       <i className="uil uil-arrow-up scrollup_icon"></i>
     </button>
   )
