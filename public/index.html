@@ -39,18 +39,18 @@
   <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 
   <!-- CSP + Security Meta Tags -->
-  <meta http-equiv="Content-Security-Policy"
-    content="
-      default-src 'self';
-      script-src 'self' https://unpkg.com https://unicons.iconscout.com 'unsafe-inline';
-      style-src 'self' 'unsafe-inline' https://unpkg.com https://unicons.iconscout.com;
-      img-src 'self' data:;
-      connect-src 'self';
-      font-src 'self' https://unpkg.com https://unicons.iconscout.com;
-      frame-ancestors 'none';
-      base-uri 'self';
-    ">
-
+ <meta http-equiv="Content-Security-Policy"
+  content="
+    default-src 'self';
+    script-src 'self' https://unpkg.com https://unicons.iconscout.com 'unsafe-inline';
+    style-src 'self' 'unsafe-inline' https://unpkg.com https://unicons.iconscout.com https://fonts.googleapis.com;
+    font-src 'self' https://fonts.gstatic.com;
+    img-src 'self' data:;
+    connect-src 'self';
+    frame-ancestors 'none';
+    base-uri 'self';
+  ">
+  
   <meta http-equiv="Cross-Origin-Opener-Policy" content="same-origin">
   <meta http-equiv="Cross-Origin-Embedder-Policy" content="require-corp">
   <meta http-equiv="X-Frame-Options" content="DENY">
