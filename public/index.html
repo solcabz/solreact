@@ -38,30 +38,60 @@
   <!-- Manifest -->
   <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 
+  <!-- CSP + Security Meta Tags -->
+  <meta http-equiv="Content-Security-Policy"
+    content="
+      default-src 'self';
+      script-src 'self' https://unpkg.com https://unicons.iconscout.com 'unsafe-inline';
+      style-src 'self' 'unsafe-inline' https://unpkg.com https://unicons.iconscout.com;
+      img-src 'self' data:;
+      connect-src 'self';
+      font-src 'self' https://unpkg.com https://unicons.iconscout.com;
+      frame-ancestors 'none';
+      base-uri 'self';
+    ">
+
+  <meta http-equiv="Cross-Origin-Opener-Policy" content="same-origin">
+  <meta http-equiv="Cross-Origin-Embedder-Policy" content="require-corp">
+  <meta http-equiv="X-Frame-Options" content="DENY">
+  <meta http-equiv="Referrer-Policy" content="no-referrer-when-downgrade">
+  <meta http-equiv="Permissions-Policy" content="geolocation=(), microphone=()">
+
+  <!-- Trusted Types Enforcement -->
+  <script>
+    if (window.trustedTypes) {
+      window.trustedTypes.createPolicy('default', {
+        createHTML: (input) => input,
+        createScript: (input) => input
+      });
+    }
+  </script>
+
   <!-- JSON-LD Structured Data -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Solomon Cabreza",
-    "url": "https://sol-cabreza-portfolio.netlify.app/",
-    "image": "%PUBLIC_URL%/solcabz.png",
-    "sameAs": [
-      "https://www.linkedin.com/in/solomon-cabreza-91537219/",
-      "https://github.com/your-github-username",
-      "https://m.me/solcabreza"
-    ],
-    "jobTitle": "Web Developer & Visual Designer",
-    "worksFor": {
-      "@type": "Organization",
-      "name": "Freelance / Personal Portfolio"
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Solomon Cabreza",
+      "url": "https://sol-cabreza-portfolio.netlify.app/",
+      "image": "%PUBLIC_URL%/solcabz.png",
+      "sameAs": [
+        "https://www.linkedin.com/in/solomon-cabreza-91537219/",
+        "https://github.com/solcabz",
+        "https://m.me/solcabreza"
+      ],
+      "jobTitle": "Web Developer & Visual Designer",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Freelance / Personal Portfolio"
+      }
     }
-  }
   </script>
 </head>
 
 <body>
   <noscript>You need to enable JavaScript to run this app.</noscript>
   <div id="root"></div>
+</body>
 
 </html>
