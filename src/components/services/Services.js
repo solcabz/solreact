@@ -33,25 +33,24 @@ function Services() {
 
               <h3 className="services_modal-title">Visual Designer</h3>
               <p className="services_modal-description">
-                Services With 1 year experience. Providing quality work to
-                clients and companies.
+                Designing intuitive and user-friendly products from concept to prototype.
               </p>
               <ul className="services_modal-services grid">
                 <li className="services_modal-service">
                   <i className="uil uil-check-circle services_modal-icon"></i>
                   <p className="services_modal-info">
-                    I develop the user interface.
+                    Develop engaging user interfaces
                   </p>
                 </li>
 
                 <li className="services_modal-service">
                   <i className="uil uil-check-circle services_modal-icon"></i>
-                  <p className="services_modal-info">Webpage development.</p>
+                  <p className="services_modal-info">Build and implement webpages</p>
                 </li>
 
                 <li className="services_modal-service">
                   <i className="uil uil-check-circle services_modal-icon"></i>
-                  <p className="services_modal-info">Sample web design</p>
+                  <p className="services_modal-info">Provide sample web designs to showcase style and functionality</p>
                 </li>
               </ul>
             </div>
@@ -73,27 +72,31 @@ function Services() {
             <div className="services_modal-content">
               <i className="uil uil-times services_modal-close" onClick={ () => toggleTab(0) }></i>
 
-              <h3 className="services_modal-title">Web Designer</h3>
+              <h3 className="services_modal-title">Web Developer</h3>
               <p className="services_modal-description">
-                Services With 1 year experience. Providing quality work to
-                clients and companies.
+                Building responsive and interactive websites with clean code and modern technologies.
               </p>
               <ul className="services_modal-services grid">
                 <li className="services_modal-service">
                   <i className="uil uil-check-circle services_modal-icon"></i>
                   <p className="services_modal-info">
-                    I develop the user interface.
+                    Develop responsive and interactive websites using modern technologies.
                   </p>
                 </li>
 
                 <li className="services_modal-service">
                   <i className="uil uil-check-circle services_modal-icon"></i>
-                  <p className="services_modal-info">Webpage development.</p>
+                  <p className="services_modal-info">Implement backend functionality including databases, APIs, and server-side logic.</p>
                 </li>
 
                 <li className="services_modal-service">
                   <i className="uil uil-check-circle services_modal-icon"></i>
-                  <p className="services_modal-info">Sample web design</p>
+                  <p className="services_modal-info">Optimize website performance for speed, security, and SEO.</p>
+                </li>
+
+                <li className="services_modal-service">
+                  <i className="uil uil-check-circle services_modal-icon"></i>
+                  <p className="services_modal-info">Maintain and update websites to ensure smooth operation.</p>
                 </li>
               </ul>
             </div>
@@ -115,27 +118,31 @@ function Services() {
             <div className="services_modal-content">
             <i className="uil uil-times services_modal-close"  onClick={ () => toggleTab(0) } ></i>
 
-              <h3 className="services_modal-title">Web Designer</h3>
+              <h3 className="services_modal-title">Frontend Designer</h3>
               <p className="services_modal-description">
-                Services With 1 year experience. Providing quality work to
-                clients and companies.
+                Creating visually appealing, responsive front-end layouts for web applications.
               </p>
               <ul className="services_modal-services grid">
                 <li className="services_modal-service">
                   <i className="uil uil-check-circle services_modal-icon"></i>
                   <p className="services_modal-info">
-                    I develop the user interface.
+                    Design visually appealing and intuitive interfaces for websites and web apps.
                   </p>
                 </li>
 
                 <li className="services_modal-service">
                   <i className="uil uil-check-circle services_modal-icon"></i>
-                  <p className="services_modal-info">Webpage development.</p>
+                  <p className="services_modal-info">Convert designs into responsive layouts using HTML, CSS, and JavaScript frameworks.</p>
                 </li>
 
                 <li className="services_modal-service">
                   <i className="uil uil-check-circle services_modal-icon"></i>
-                  <p className="services_modal-info">Sample web design</p>
+                  <p className="services_modal-info">Enhance user experience (UX) with interactive elements, animations, and clean navigation.</p>
+                </li>
+
+                <li className="services_modal-service">
+                  <i className="uil uil-check-circle services_modal-icon"></i>
+                  <p className="services_modal-info">Collaborate with developers to ensure seamless integration of design and functionalityv.</p>
                 </li>
               </ul>
             </div>

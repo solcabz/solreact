@@ -1,5 +1,5 @@
 .card-wrapper {
-  display: flex;
+  display: grid;
   grid-template-columns: repeat(3, 270px);
   justify-content: center;
   column-gap: 1.8rem;
@@ -16,6 +16,7 @@
 .image-box img {
   height: 156px;
   box-shadow: 0 0 15px 0 var(--container-color);
+  object-fit: fill;
 }
 
 @media screen and (max-width: 768px) {

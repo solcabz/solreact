@@ -12,7 +12,6 @@ function Frontend() {
             
             <div>
               <h3 className="skills_name">HTML</h3>
-              <span className="skills_level">Intermediate</span>
             </div>
           </div>
         </div>
@@ -22,7 +21,6 @@ function Frontend() {
             <i className="bx bx-badge-check"></i>
             <div>
               <h3 className="skills_name">CSS</h3>
-              <span className="skills_level">Intermediate</span>
             </div>
           </div>
         </div>
@@ -32,7 +30,6 @@ function Frontend() {
             <i className="bx bx-badge-check"></i>
             <div>
               <h3 className="skills_name">JavaScript</h3>
-              <span className="skills_level">Intermediate</span>
             </div>
           </div>
         </div>
@@ -42,7 +39,6 @@ function Frontend() {
             <i className="bx bx-badge-check"></i>
             <div>
               <h3 className="skills_name">ReactJS</h3>
-              <span className="skills_level">Basic</span>
             </div>
           </div>
         </div>
@@ -52,20 +48,19 @@ function Frontend() {
             <i className="bx bx-badge-check"></i>
             <div>
               <h3 className="skills_name">VueJS</h3>
-              <span className="skills_level">Basic</span>
             </div>
           </div>
         </div>
 
-        {/* <div className="skills_group">
+        <div className="skills_group">
           <div className="skills_data">
             <i className="bx bx-badge-check"></i>
             <div>
-              <h3 className="skills_name">JavaScript</h3>
-              <span className="skills_level">Intermediate</span>
+              <h3 className="skills_name">UI/UX</h3>
             </div>
           </div>
-        </div> */}
+        </div>
+
       </div>
     </div>
   );

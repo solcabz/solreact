@@ -1,5 +1,8 @@
 import projImage from "../../assets/tictac.png";
-import projLeo from "../../assets/leo.png";
+import projSMDC from "../../assets/smdccorp.png";
+import smdcHeights from "../../assets/smdcheights.png";
+import smdcNature from "../../assets/smdcnature.png";
+import symphonyHomes from "../../assets/symphonyhomes.png";
 import projHris from "../../assets/projHris.png";
 import projTodo from "../../assets/todo.png";
 import "./portfolio.css";
@@ -16,13 +19,6 @@ const Portfolio = () => {
         />
 
         <ProjectCard
-          image={projLeo}
-          link="https://www.leocasts.ph/"
-          title="LeocastPH Portfolio"
-          subTitle="Webflow"
-        />
-
-        <ProjectCard
           image={projHris}
           link="https://teamtngc.netlify.app/"
           title="HRIS"
@@ -34,6 +30,34 @@ const Portfolio = () => {
           link="https://solreact-todolist.netlify.app/"
           title="Todo-list"
           subTitle="React (Ongoing Proj)"
+        />
+
+        <ProjectCard
+          image={projSMDC}
+          link="https://smdc.com"
+          title="SMDC Corporate Website"
+          subTitle="WordPress "
+        />
+
+        <ProjectCard
+          image={smdcHeights}
+          link="https://www.smdcheights.com"
+          title="SMDC heights Website"
+          subTitle="WordPress "
+        />
+
+        <ProjectCard
+          image={smdcNature}
+          link="https://smdcnature.com"
+          title="SMDC Nature Website"
+          subTitle="WordPress "
+        />
+
+        <ProjectCard
+          image={symphonyHomes}
+          link="https://smdcsymphonyhomes.com"
+          title="SMDC Symphony Homes Website"
+          subTitle="WordPress "
         />
       </div>
     </section>

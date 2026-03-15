@@ -6,13 +6,13 @@ export default function SelfInfo() {
       <div className="about_box">
         <i className="bx bx-award"></i>
         <h3 className="about_title">Experience</h3>
-        <span className="about_subtitle">2 Year Working</span>
+        <span className="about_subtitle">4 Year Working</span>
       </div>
 
       <div className="about_box">
         <i className="bx bx-briefcase-alt-2"></i>
         <h3 className="about_title">Completed</h3>
-        <span className="about_subtitle">5 projects</span>
+        <span className="about_subtitle">8 projects</span>
       </div>
 
       <div className="about_box">

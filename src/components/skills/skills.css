@@ -23,6 +23,7 @@
     grid-template-columns: repeat(2, 1fr);
     justify-content: center;
     column-gap: 2.5rem;
+    row-gap: 1.2rem;
 }
 
 .skills_group{
