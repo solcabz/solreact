@@ -12,7 +12,7 @@ const Home = () => {
                 <div className="home_content grid">
                     <Social/>
 
-                    <div className="home_img"></div>
+                    <div className="home_img" fetchpriority="high" loading="lazy" ></div>
 
                     <Data/>
                 </div>
