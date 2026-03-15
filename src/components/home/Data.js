@@ -5,7 +5,7 @@ export default function Data() {
     <div className="home_data">
       <h1 className="home_title">Sol Cabreza</h1>
 
-      <h3 className="home_subtitle"> Web Developer</h3>
+      <h2 className="home_subtitle"> Web Developer</h2>
 
       <p className="home_description">
         I'm a Web developer from the Philippines
