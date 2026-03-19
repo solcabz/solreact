@@ -1,5 +1,7 @@
 import projImage from "../../assets/tictac.png";
 import projSMDC from "../../assets/smdccorp.png";
+import projTemango from "../../assets/temango.png";
+import projLifter from "../../assets/poorboiz.png";
 import smdcHeights from "../../assets/smdcheights.png";
 import smdcNature from "../../assets/smdcnature.png";
 import symphonyHomes from "../../assets/symphonyhomes.png";
@@ -33,31 +35,46 @@ const Portfolio = () => {
         />
 
         <ProjectCard
+          image={projLifter}
+          link="https://lifterkits.com/"
+          title="Lifter Kits"
+          subTitle="WordPress"
+        />
+
+        <ProjectCard
+          image={projTemango}
+          link="https://temango.com/"
+          title="Temango"
+          subTitle="WordPress"
+        />
+
+
+        <ProjectCard
           image={projSMDC}
           link="https://smdc.com"
           title="SMDC Corporate Website"
-          subTitle="WordPress "
+          subTitle="WordPress"
         />
 
         <ProjectCard
           image={smdcHeights}
           link="https://www.smdcheights.com"
           title="SMDC heights Website"
-          subTitle="WordPress "
+          subTitle="WordPress"
         />
 
         <ProjectCard
           image={smdcNature}
           link="https://smdcnature.com"
           title="SMDC Nature Website"
-          subTitle="WordPress "
+          subTitle="WordPress"
         />
 
         <ProjectCard
           image={symphonyHomes}
           link="https://smdcsymphonyhomes.com"
           title="SMDC Symphony Homes Website"
-          subTitle="WordPress "
+          subTitle="WordPress"
         />
       </div>
     </section>
